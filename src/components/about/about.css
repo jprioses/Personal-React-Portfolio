@@ -1,6 +1,6 @@
 .about__container {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .about__me {
@@ -28,19 +28,21 @@
 }
 
 .about__cards {
+    max-width: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 30px auto;
-    max-width: 400px;
+    
 }
 
 .about__card {
+    width: 150px;
     padding: 5px 5px;
-    margin: 0px 15px;
+    margin: 0px 10px;
     border-radius: 20px;
-    border: 1px solid var(--color-green);
-    max-width: 150px;
+    border: 2px solid var(--color-secundary);
     transition: var(--transition);
+    font-weight: bold;
 }
 
 .about__card:hover{
@@ -50,18 +52,26 @@
     cursor: default;
 }
 
+.about__card h5 {
+    color: var(--color-secundary);
+}
+
 .about__icon {
     padding: 5px;
     font-size: 3rem;
-    color: var(--color-green);
+    color: var(--color-primary);
 }
 
 .about__content p {
-    margin: 30px 5px;
+    text-align: justify;
+    margin: 30px 15px 10px 10px;
 }
 
 .about__content a {
+    display: inline-block;
     margin: 30px 10px;
     padding: 10px 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 

@@ -6,12 +6,15 @@
 
 
 .header__container h1 {
-    color: var(--color-white);
     font-size: 3rem;
 }
 
-.header__container .header__logo{
-    color: var(--color-secundary);
+.header__container .header__logo {
+    margin-bottom: 30px;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+
 }
 
 .cta {
@@ -37,7 +40,3 @@
     justify-content: center;
 }
 
-.header__socials a {
-    margin: 0 10px;
-    color: var(--color-green);
-}

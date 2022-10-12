@@ -8,7 +8,7 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 function About() {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
+      <h5 className='subtitle'>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className='container about__container'>
@@ -23,20 +23,20 @@ function About() {
             <div className="about__cards">
 
                 <article className='about__card'>
-                    <FiAward className='about__icon'/>
-                    <h5>Expereience</h5>
+                    <FiAward className='about__icon' size={40}/>
+                    <h5>Experience</h5>
                     <small>2+ Years Working</small>
                 </article>
 
                 <article className='about__card'>
-                    <VscFolderLibrary className='about__icon'/>
+                    <VscFolderLibrary className='about__icon' size={40}/>
                     <h5>Projects</h5>
                     <small>20+ Completed</small>
                 </article>
 
             </div>
 
-            <p>My name is Juan Pablo Ríos Escobar, I'm an engineer, passionate about solving problems and bringing new things to real life. As a developer I found a way to do both, thats why I love it. With me you can be confident that I will do my best to get to your goals. I can automate your task, collect data, develop and manage data bases, analise ang organise data, develop Android native and Web apps both frontend and backend side. 
+            <p>My name is Juan Pablo Ríos Escobar, I'm an engineer, passionate about solving problems and bringing new things to real life. As a developer I found a way to do both, thats why I love it. With me you can be confident that I will do my best to get to your goals. I can automate your task, collect data, develop and manage data bases, analise and organise data, develop Android native and Web apps both frontend and backend side. 
             </p>
           
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>

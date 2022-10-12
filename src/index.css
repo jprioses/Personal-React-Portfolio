@@ -2,12 +2,12 @@
 
 
 :root {
-    --color-bg: #252A94;
-    --color-secundary: #5A60E0;
-    --color-primary: #E04600;
-    --color-green:#65E330;
-    --color-white: #fff;
-    --color-light: #968983;
+  --color-bg: #1D2A84;
+  --color-bg-variant:#656FCB;
+  --color-secundary: #6A79E1;
+  --color-primary: #FD9B01;
+  --color-white: #FCFFFE;
+  --color-light: #D4D4D4;
 
     --transition: all 400ms ease;
 
@@ -47,7 +47,7 @@ body{
 .container {
   width: var(--container-width-sm);
   min-width: 300px;
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
 }
 
@@ -62,24 +62,35 @@ h2 {
 }
 
 h5 {
-  color: var(--color-light);
   font-size: 1.5rem;
+}
+
+.text-blue {
+  color: var(--color-bg-variant);
 }
 
 .text-white {
   color: var(--color-white);
 }
 
-a{
-  color: var(--color-secundary);
+.social__icons{
+  margin: 0 10px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--color-bg-variant);
+  color: var(--color-light);
   transition: var(--transition);
 }
 
-a:hover {
-  color: var(--color-white);
+.social__icons:hover {
+  color: var(--color-bg);
+  background-color: var(--color-light);
 }
 
 .btn {
+  height: 47.5px;
   color: var(--color-white);
   border-radius: 8px;
   cursor: pointer;

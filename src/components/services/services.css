@@ -1,0 +1,7 @@
+.service {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 10px auto;
+    border: 2px solid var(--color-bg-variant);
+    border-radius: 15px;
+}

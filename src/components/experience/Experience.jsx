@@ -1,6 +1,17 @@
 import React from 'react'
 import './experience.css'
+import {AiOutlineHtml5} from 'react-icons/ai'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import {RiCss3Line} from 'react-icons/ri'
+import {DiJavascript1} from 'react-icons/di'
+import {FaReact} from 'react-icons/fa'
+import {FaPython} from 'react-icons/fa'
+import {FaNodeJs} from 'react-icons/fa'
+import {SiMongodb} from 'react-icons/si'
+import {GrMysql} from 'react-icons/gr'
+
+
+const size = 40
 
 const Experience = () => {
   return (
@@ -9,11 +20,11 @@ const Experience = () => {
       <h2>My Experience</h2>
 
      <div className="container experience__container">
-      <div className="experience__frontend">
-        <h3>Frontend Devolopment</h3>
+      <div className="experience">
+        <h5>Frontend Devolopment</h5>
           <div className="experience__content">
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <AiOutlineHtml5 size={size} className='experience__details-icon'/>
                 <div>
                   <h4>HTML</h4>
                   <small className='text-light'>Advance</small>
@@ -21,7 +32,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <RiCss3Line size={size}  className='experience__details-icon'/>
                 <div>
                   <h4>CSS</h4>
                   <small className='text-light'>Advance</small>
@@ -29,7 +40,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <DiJavascript1 size={size} className='experience__details-icon'/>
                 <div>
                   <h4>JavaScript</h4>
                   <small className='text-light'>Advance</small>
@@ -37,7 +48,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <FaReact size={size} className='experience__details-icon'/>
                 <div>
                   <h4>React</h4>
                   <small className='text-light'>Intermediate</small>
@@ -46,11 +57,11 @@ const Experience = () => {
 
           </div>
       </div>
-      <div className="experience__backend">
-        <h3>Backend Devolopment</h3>
+      <div className="experience">
+        <h5>Backend Devolopment</h5>
           <div className="experience__content">
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <FaPython size={size} className='experience__details-icon'/>
                 <div>
                   <h4>Python</h4>
                   <small className='text-light'>Advance</small>
@@ -58,15 +69,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
-                <div>
-                  <h4>Python</h4>
-                  <small className='text-light'>Itermediate</small>
-                </div>  
-            </article>
-
-            <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <FaNodeJs size={size} className='experience__details-icon'/>
                 <div>
                   <h4>Node JS</h4>
                   <small className='text-light'>Basic</small>
@@ -74,7 +77,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <SiMongodb size={size} className='experience__details-icon'/>
                 <div>
                   <h4>Mongo DB</h4>
                   <small className='text-light'>Intermediate</small>
@@ -82,7 +85,7 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon'/>
+                <GrMysql size={size} className='experience__details-icon'/>
                 <div>
                   <h4>MySQL</h4>
                   <small className='text-light'>Intermediate</small>

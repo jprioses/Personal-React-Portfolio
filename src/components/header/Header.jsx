@@ -3,8 +3,10 @@ import ME from '../../assets/TechIcon.png'
 import CV from '../../assets/cv.pdf'
 import './header.css'
 
-import {BsLinkedin} from 'react-icons/bs'
+import {FaLinkedinIn} from 'react-icons/fa'
 import {BsGithub} from 'react-icons/bs'
+
+const size = 20
 
 const Header = () => {
   return (
@@ -12,8 +14,8 @@ const Header = () => {
       <div className="container header__container"> 
         <h5>Hello I'm</h5> 
         <h1>Juan Pablo</h1>
-        <h1 className='header__logo'>{'{CoudIN}'}</h1>
-        <h5 className="text-white">Software Developer Engineer </h5> 
+        <h1 className="header__logo text-blue">{'{CoudIN}'}</h1>
+        <h5 >Software Developer Engineer </h5> 
 
         <div className='cta'>
           <a href={CV} download className='btn'>Download CV</a>
@@ -25,8 +27,8 @@ const Header = () => {
         </div> 
 
         <div className='header__socials'>
-          <a href="https://linkedin.com" target="_blank"><BsLinkedin size={30}/></a>
-          <a href="https://github.com" target="_blank"><BsGithub size={30}/></a>
+          <a href="https://linkedin.com" target="_blank" className='social__icons'><FaLinkedinIn size={size}/></a>
+          <a href="https://github.com" target="_blank" className='social__icons'><BsGithub size={size}/></a>
         </div>
 
         
