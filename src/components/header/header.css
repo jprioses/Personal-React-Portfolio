@@ -1,0 +1,43 @@
+.header__container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.header__container h1 {
+    color: var(--color-white);
+    font-size: 3rem;
+}
+
+.header__container .header__logo{
+    color: var(--color-secundary);
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cta a {
+    margin: 30px 10px;
+    padding: 10px 10px;
+}
+.me {
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.header__socials {
+    display: flex;
+    justify-content: center;
+}
+
+.header__socials a {
+    margin: 0 10px;
+    color: var(--color-green);
+}
