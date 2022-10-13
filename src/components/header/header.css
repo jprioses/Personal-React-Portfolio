@@ -24,10 +24,12 @@
     font-size: 1.5rem;
 }
 
-.cta a {
-    margin: 30px 10px;
-    padding: 10px 10px;
+.cta a{
+    margin-top: 30px;
 }
+
+
+
 .me {
     width: 300px;
     height: 300px;

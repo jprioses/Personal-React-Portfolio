@@ -1,7 +1,44 @@
-.service {
-    max-width: 500px;
-    min-width: 300px;
-    margin: 10px auto;
-    border: 2px solid var(--color-bg-variant);
-    border-radius: 15px;
+.services__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.service {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: 2px solid var(--color-bg-variant);
+    transition: var(--transition);
+}
+
+.service:hover{
+    background-color: var(--color-white);
+    border-color: transparent;
+    color: var(--color-bg);
+}
+
+.service__icon {
+    position: relative;
+    left: 0px;
+    top: 5px;
+    margin: 5px;
+    color: var(--color-primary);
+}
+
+.service h3 {
+    margin: 5px 2px;
+    
+}
+
+.service p {
+    margin: 15px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+
+

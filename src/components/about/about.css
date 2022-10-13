@@ -38,7 +38,7 @@
 .about__card {
     width: 150px;
     padding: 5px 5px;
-    margin: 0px 10px;
+    margin: 15px 10px;
     border-radius: 20px;
     border: 2px solid var(--color-secundary);
     transition: var(--transition);
@@ -69,8 +69,6 @@
 
 .about__content a {
     display: inline-block;
-    margin: 30px 10px;
-    padding: 10px 10px;
     font-weight: bold;
     font-size: 1.5rem;
 }

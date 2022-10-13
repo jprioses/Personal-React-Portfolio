@@ -10,7 +10,7 @@ const size = 20
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header__container"> 
         <h5>Hello I'm</h5> 
         <h1>Juan Pablo</h1>
@@ -27,8 +27,8 @@ const Header = () => {
         </div> 
 
         <div className='header__socials'>
-          <a href="https://linkedin.com" target="_blank" className='social__icons'><FaLinkedinIn size={size}/></a>
-          <a href="https://github.com" target="_blank" className='social__icons'><BsGithub size={size}/></a>
+          <a href="https://linkedin.com" target="_blank" className='social__icons'rel="noreferrer"><FaLinkedinIn size={size}/></a>
+          <a href="https://github.com" target="_blank" className='social__icons' rel="noreferrer"><BsGithub size={size}/></a>
         </div>
 
         

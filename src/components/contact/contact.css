@@ -1,0 +1,87 @@
+.contact__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.contact__option {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+    color: var(--color-bg);
+}
+
+.contact__option-icon {
+    position: relative;
+    left: -100px;
+    color: var(--color-primary);
+    
+}
+
+.contact__option h4 {
+    position: relative;
+    left: 25px;
+    top: -50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact__option a {
+    position: relative;
+    left: 20px;
+    top: -50px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-bg);
+}
+
+
+.contact__container form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+.contact__container input {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.8rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-white);
+    border-radius: 15px;
+    color: var(--color-white);
+}
+
+.contact__container textarea{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.8rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-white);
+    border-radius: 15px;
+    color: var(--color-white);
+}
+
+.contact__container .btn {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+}

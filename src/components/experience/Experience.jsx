@@ -1,7 +1,6 @@
 import React from 'react'
 import './experience.css'
 import {AiOutlineHtml5} from 'react-icons/ai'
-import {BsPatchCheckFill} from 'react-icons/bs'
 import {RiCss3Line} from 'react-icons/ri'
 import {DiJavascript1} from 'react-icons/di'
 import {FaReact} from 'react-icons/fa'
