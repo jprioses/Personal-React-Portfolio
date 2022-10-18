@@ -1,5 +1,8 @@
 import React from 'react'
+import {forwardRef} from 'react';
+
 import './experience.css'
+
 import {AiOutlineHtml5} from 'react-icons/ai'
 import {RiCss3Line} from 'react-icons/ri'
 import {DiJavascript1} from 'react-icons/di'
@@ -12,9 +15,9 @@ import {GrMysql} from 'react-icons/gr'
 
 const size = 40
 
-const Experience = () => {
+const Experience = forwardRef((props, ref) => {
   return (
-    <section id='experience'>
+    <section id='experience' ref={ref}>
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
@@ -95,6 +98,6 @@ const Experience = () => {
      </div>
     </section>
   )
-}
+})
 
 export {Experience}

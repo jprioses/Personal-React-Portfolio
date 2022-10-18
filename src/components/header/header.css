@@ -1,7 +1,11 @@
+.header {
+    position: relative;
+}
+
 .header__container {
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    
 }
 
 
@@ -28,9 +32,7 @@
     margin-top: 30px;
 }
 
-
-
-.me {
+.tech{
     width: 300px;
     height: 300px;
     margin: 30px auto;
@@ -40,5 +42,17 @@
 .header__socials {
     display: flex;
     justify-content: center;
+}
+
+.icon {
+    position: relative;
+    z-index: 2;
+}
+
+.header .rounded-bg {
+    position: absolute;
+    z-index: -1;
+    bottom: -15px;
+    left: 0;
 }
 

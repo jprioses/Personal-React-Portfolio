@@ -1,4 +1,5 @@
 import React from 'react'
+import {forwardRef } from 'react';
 import './services.css'
 import {BsClipboardData} from 'react-icons/bs'
 import {FiDatabase} from 'react-icons/fi'
@@ -8,9 +9,9 @@ import {DiCodeBadge} from 'react-icons/di'
 
 
 const size = 30
-const Services = () => {
+const Services  = forwardRef((props, ref) => {
   return (
-    <section id='services'>
+    <section id='services' className='services' ref={ref}>
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -42,8 +43,11 @@ const Services = () => {
             <p>I will develop Microsoft Office and Google Apps macros to automate task.</p>
         </article>
       </div>
+
+      
+
     </section>
   )
-}
+})
 
 export {Services}

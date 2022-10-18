@@ -1,5 +1,4 @@
 .about__container {
-    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -8,7 +7,7 @@
     height: 300px;
     border-radius: 8rem;
     margin: 30px auto;
-    background-color: var(--color-secundary);
+    background-color: var(--color-bg-variant);
 }
 
 .about__me-image{
@@ -37,8 +36,9 @@
 
 .about__card {
     width: 150px;
-    padding: 5px 5px;
+    padding: 5px;
     margin: 15px 10px;
+    justify-self: center;
     border-radius: 20px;
     border: 2px solid var(--color-secundary);
     transition: var(--transition);
@@ -46,8 +46,8 @@
 }
 
 .about__card:hover{
-    background-color: var(--color-white);
-    color: var(--color-bg);
+    background-color: var(--color-bg);
+    color: var(--color-white);
     border-color: transparent;
     cursor: default;
 }
@@ -63,7 +63,7 @@
 }
 
 .about__content p {
-    text-align: justify;
+    text-align:center;
     margin: 30px 15px 10px 10px;
 }
 

@@ -2,12 +2,13 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
-import { useRef } from 'react';
+import { useRef,  forwardRef } from 'react';
 import emailjs from 'emailjs-com'
 
 const size = 50
 
-function Contact() {
+ const Contact = forwardRef((props, ref) => {
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -20,7 +21,7 @@ function Contact() {
   };
   
   return (
-    <section id='contact'>
+   <section id='contact' className='contact' ref={ref}>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
@@ -47,6 +48,6 @@ function Contact() {
       </div>
     </section>
   )
-}
+})
 
 export {Contact}
