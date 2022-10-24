@@ -13,9 +13,9 @@ const size = 50
 
   const sendEmail = (e) => {
     e.preventDefault();
-    e.target.reset()
-    
-    emailjs.sendForm('service_sjedtr7', 'template_cz7t8dl', form.current, 'xTRGIrwXQoVZ55_nr')
+
+    emailjs.sendForm('service_sjedtr7', 'template_personal_web', form.current, 'xTRGIrwXQoVZ55_nr')
+    console.log(form.current)
     e.target.reset()
      
   };
@@ -27,22 +27,22 @@ const size = 50
 
       <div className='container contact__container'>
         <div className="contact__options">
-          <article className="contact__option">
+          <a href="mailto:jprioses@outlook.com" className="contact__option">
             <MdOutlineEmail  size={size} className='contact__option-icon'/>
             <h4>jprioses@outlook.com</h4>
-            <a href="mailto:jprioses@outlook.com">Send a message</a>
-          </article>
-          <article className="contact__option">
+            <p>Send a message</p>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=573164938408" className="contact__option">
             <BsWhatsapp size={size} className='contact__option-icon'/>
             <h4>+57 316 493 8408</h4>
-            <a href="https://api.whatsapp.com/send?phone=573164938408">Send a message</a>
-          </article>
+            <p>Send a message</p>
+          </a>
           
         </div>
         <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name='name' placeholder='Your Full Name' required />
-            <input type="email" name='email' placeholder='Your Email' required />
-            <textarea type="message" rows='7' placeholder='Your Message' required />
+            <input type="text" name="name" placeholder='Your Full Name' required />
+            <input type="email" name="email" placeholder='Your Email' required />
+            <textarea name="message" rows='7' placeholder='Your Message' required />
             <button type='submit' className='btn btn-primary'>Send</button>
         </form>
       </div>

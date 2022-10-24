@@ -1,0 +1,24 @@
+@media (min-width:900px){
+
+     .about__container {
+        max-width: 1020px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 10px 200px;
+    }
+
+    .about__cards {
+        grid-column: 1/3;
+        grid-row: 3;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .about__content {
+        grid-column: 2;
+        grid-row: 1/2;
+
+    }
+
+    
+}

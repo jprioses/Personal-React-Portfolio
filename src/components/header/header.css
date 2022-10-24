@@ -39,20 +39,22 @@
     overflow: hidden;
 }
 
+
+
+.header .rounded-bg {
+    position: absolute;
+    z-index: -1;
+    bottom: -5px;
+    left: 0;
+}
+
 .header__socials {
+    position: relative;
     display: flex;
     justify-content: center;
 }
 
 .icon {
-    position: relative;
     z-index: 2;
-}
-
-.header .rounded-bg {
-    position: absolute;
-    z-index: -1;
-    bottom: -15px;
-    left: 0;
 }
 

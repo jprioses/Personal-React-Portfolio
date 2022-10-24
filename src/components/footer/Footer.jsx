@@ -1,13 +1,14 @@
 import React from 'react'
+import {forwardRef} from 'react';
 import './footer.css'
-import {BsFacebook} from 'react-icons/bs'
-import {FiInstagram} from 'react-icons/fi'
-import {BsTwitter} from 'react-icons/bs'
+import {FaLinkedinIn} from 'react-icons/fa'
+import {BsGithub} from 'react-icons/bs'
+import {BsInstagram} from 'react-icons/bs'
 
 const size = 20
-const Footer = () => {
+const Footer = forwardRef((props, ref) =>  {
   return (
-    <footer>
+    <footer ref={ref}>
       {/* <a href="#home" className='footer__logo' >{'{CoudIN}'}</a> */}
       <ul className='permalinks'>
         <li><a href="#home" >Home</a></li>
@@ -19,9 +20,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com" className='social__icons' ><BsFacebook  size={size}/></a>
-        <a href="https://instagram.com" className='social__icons'><FiInstagram size={size}/></a>
-        <a href="https://twitter.com" className='social__icons'><BsTwitter size={size}/></a>
+          <a href="https://www.linkedin.com/in/juan-pablo-rios-escobar-8a460a24b/" className='social__icons'><FaLinkedinIn className='icon' size={size}/></a>
+          <a href="https://github.com/jprioses"  className='social__icons'><BsGithub className='icon' size={size}/></a>
+          <a href="https://twitter.com" className='social__icons'><BsInstagram size={size}/></a>
       </div>
 
       <div className="footer__copyright">
@@ -29,6 +30,6 @@ const Footer = () => {
       </div>
     </footer>
   )
-}
+})
 
 export {Footer}

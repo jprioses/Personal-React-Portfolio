@@ -12,7 +12,9 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-self:flex-start;
+    margin: 10px;
+    padding: 10px;
 
 }
 
@@ -42,7 +44,7 @@
     font-weight: bold;
 }
 
-.contact__option a {
+.contact__option p {
     position: relative;
     left: 20px;
     top: -50px;

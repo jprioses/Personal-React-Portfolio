@@ -16,6 +16,7 @@ function App() {
   const servicesRef = useRef();
   const portfolioRef = useRef();
   const contactRef = useRef();
+  const footerRef = useRef();
   
   const [activeNav, setActiveNav] = React.useState('#home');
 
@@ -25,6 +26,7 @@ function App() {
   const services = useIntersection(servicesRef,[0.4,1]);
   const portfolio = useIntersection(portfolioRef,[0.2,1]);
   const contact = useIntersection(contactRef,[0.5,1]);
+  const footer = useIntersection(footerRef,[0.7,1]);
 
   useEffect(() => {
     if (home) setActiveNav('#home');
@@ -33,7 +35,8 @@ function App() {
     if (services) setActiveNav('#services');
     if (portfolio) setActiveNav('#portfolio');
     if (contact) setActiveNav('#contact');
-  }, [home,about,experience,services,portfolio,contact]);
+    if (footer) setActiveNav('#footer');
+  }, [home,about,experience,services,portfolio,contact,footer]);
 
   return (
     <>
@@ -44,7 +47,7 @@ function App() {
       <Services ref={servicesRef}/>
       <Portfolio ref={portfolioRef}/>
       <Contact ref={contactRef}/>
-      <Footer />
+      <Footer ref={footerRef}/>
     </>
   );
 }
