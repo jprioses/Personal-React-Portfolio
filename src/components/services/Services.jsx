@@ -9,42 +9,41 @@ import {DiCodeBadge} from 'react-icons/di'
 
 
 const size = 30
-const Services  = forwardRef((props, ref) => {
+const Services  = forwardRef(({content}, ref) => {
   return (
     <section id='services' className='services' ref={ref}>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      
+      <h5>{content('services.startTitle')}</h5>
+      <h2>{content('services.title')}</h2>
 
       <div className="container services__container">
     
         <article className='service'>
             <BsGlobe size={size} className='service__icon'/>
-            <h3>Web Development</h3>
-            <p>I will do responsive web apps using MERN stack (MongoDB, Express, React.js, Node.js).</p>
+            <h3>{content('services.cards.webDev.0')}</h3>
+            <p>{content('services.cards.webDev.1')}</p>
         </article>
         <article className='service'>
             <BsClipboardData size={size} className='service__icon'/>
-            <h3>Web Scraping</h3>
-            <p>I will scrap any web page with Python and store the records as .json, .txt, .csv or in a database as well.</p>
+            <h3>{content('services.cards.webScraping.0')}</h3>
+            <p>{content('services.cards.webScraping.1')}</p>
         </article>
         <article className='service'>
             <FiDatabase size={size} className='service__icon'/>
-            <h3>Databases</h3>
-            <p>I will create and manage SQL and NoSQL databases with MySQL or MariaDB and MongoDb. </p>
+            <h3>{content('services.cards.databases.0')}</h3>
+            <p>{content('services.cards.databases.1')}</p>
         </article>
         <article className='service'>
             <AiOutlineMobile size={size} className='service__icon'/>
-            <h3>Android Apps</h3>
-            <p>I will develop Android native apps using Kotlin or Java with Android Studio or React Native.</p>
+            <h3>{content('services.cards.androidApps.0')}</h3>
+            <p>{content('services.cards.androidApps.1')}</p>
         </article>
         <article className='service'>
             <DiCodeBadge size={size} className='service__icon'/>
-            <h3>Macros</h3>
-            <p>I will develop Microsoft Office and Google Apps macros to automate task.</p>
+            <h3>{content('services.cards.macros.0')}</h3>
+            <p>{content('services.cards.macros.1')}</p>
         </article>
       </div>
-
-      
 
     </section>
   )

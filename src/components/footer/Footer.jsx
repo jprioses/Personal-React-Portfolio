@@ -6,28 +6,29 @@ import {BsGithub} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 
 const size = 20
-const Footer = forwardRef((props, ref) =>  {
+const Footer = forwardRef(({content}, ref) =>  {
   return (
     <footer ref={ref}>
       {/* <a href="#home" className='footer__logo' >{'{CoudIN}'}</a> */}
       <ul className='permalinks'>
-        <li><a href="#home" >Home</a></li>
-        <li><a href="#about" >About</a></li>
-        <li><a href="#experience" >Experience</a></li>
-        <li><a href="#services" >Services</a></li>
-        <li><a href="#portfolio" >Portfolio</a></li>
-        <li><a href="#contact" >Contact</a></li>
+        <li><a href="#home" >{content('footer.0')}</a></li>
+        <li><a href="#about" >{content('footer.1')}</a></li>
+        <li><a href="#experience" >{content('footer.2')}</a></li>
+        <li><a href="#services" >{content('footer.3')}</a></li>
+        <li><a href="#portfolio" >{content('footer.4')}</a></li>
+        <li><a href="#contact" >{content('footer.5')}</a></li>
       </ul>
 
       <div className="footer__socials">
-          <a href="https://www.linkedin.com/in/juan-pablo-rios-escobar-8a460a24b/" className='social__icons'><FaLinkedinIn className='icon' size={size}/></a>
-          <a href="https://github.com/jprioses"  className='social__icons'><BsGithub className='icon' size={size}/></a>
-          <a href="https://twitter.com" className='social__icons'><BsInstagram size={size}/></a>
+          <a href="https://www.linkedin.com/in/juan-pablo-rios-escobar-8a460a24b/" target='_blank' rel="noreferrer" className='social__icons'><FaLinkedinIn className='icon' size={size}/></a>
+          <a href="https://github.com/jprioses" target='_blank' rel="noreferrer"  className='social__icons'><BsGithub className='icon' size={size}/></a>
+          <a href="https://instagram.com/jprioses?igshid=YmMyMTA2M2Y=" target='_blank' rel="noreferrer" className='social__icons'><BsInstagram size={size}/></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; {'{CoudIN}'}. All rights reserved.</small>
+        <small>&copy; {'{CoudIN}'}. {content('rigths')}</small>
       </div>
+      
     </footer>
   )
 })

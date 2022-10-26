@@ -7,7 +7,7 @@ import emailjs from 'emailjs-com'
 
 const size = 50
 
- const Contact = forwardRef((props, ref) => {
+ const Contact = forwardRef(({content}, ref) => {
 
   const form = useRef();
 
@@ -22,28 +22,28 @@ const size = 50
   
   return (
    <section id='contact' className='contact' ref={ref}>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>{content('contact.startTitle')}</h5>
+      <h2>{content('contact.title')}</h2>
 
       <div className='container contact__container'>
         <div className="contact__options">
           <a href="mailto:jprioses@outlook.com" className="contact__option">
             <MdOutlineEmail  size={size} className='contact__option-icon'/>
             <h4>jprioses@outlook.com</h4>
-            <p>Send a message</p>
+            <p>{content('buttons.sendMessage')}</p>
           </a>
           <a href="https://api.whatsapp.com/send?phone=573164938408" className="contact__option">
             <BsWhatsapp size={size} className='contact__option-icon'/>
             <h4>+57 316 493 8408</h4>
-            <p>Send a message</p>
+            <p>{content('buttons.sendMessage')}</p>
           </a>
           
         </div>
         <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="name" placeholder='Your Full Name' required />
-            <input type="email" name="email" placeholder='Your Email' required />
-            <textarea name="message" rows='7' placeholder='Your Message' required />
-            <button type='submit' className='btn btn-primary'>Send</button>
+            <input type="text" name="name" placeholder={content('contact.form.0')} required />
+            <input type="email" name="email" placeholder={content('contact.form.1')} required />
+            <textarea name="message" rows='7' placeholder={content('contact.form.2')} required />
+            <button type='submit' className='btn btn-primary'>{content('buttons.sendEmail')}</button>
         </form>
       </div>
     </section>

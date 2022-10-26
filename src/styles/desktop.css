@@ -1,5 +1,9 @@
 @media (min-width:900px){
 
+
+    .header__container{
+        height: 50vh;
+    }
      .about__container {
         max-width: 1020px;
         display: grid;

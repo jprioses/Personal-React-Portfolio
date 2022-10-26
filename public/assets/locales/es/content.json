@@ -1,0 +1,53 @@
+{
+    "header": {
+        "startTitle": "Hola, soy",
+        "description": "Ingeniero Desarrollador de Software" 
+    },
+    "buttons": {
+        "cV": ["Descargar CV","SPA"],
+        "contact": "Hablemos",
+        "sendEmail": "Enviar Email",
+        "sendMessage": "Enviar un mensaje",
+        "briefing": "Resumen"
+    },
+    "about": {
+        "startTitle": "Conóceme",
+        "title": "Sobre Mí", 
+        "experienceCard": ["Experiencia","3+ Años Trabajando"],
+        "projectsCard": ["Proyectos", "20+ Completados"],
+        "description":"Mi nombre es Juan Pablo Ríos Escobar, soy Ingeniero, apasionado por solucionar problemas y traer a luz nuevas cosas. Como desarrollador encontré una forma de hacer ambas, por eso es que me encata. Conmigo puedes tener la plena confianza de que voy a dar lo mejor de mí para ayudarte a cumplir tus objetivos. Puedo automatizar tus tareas, recopilar datos, desarrollar y administrar bases de datos, analizar y organizar datos y desarrollar aplicaciones moviles y web tanto del lado frontend como el backend."
+    },
+    "experience": {
+        "startTitle":"Habilidades que tengo",
+        "title": "Mi Experiencia", 
+        "frontendSkills":"Desarrollo Frontend",
+        "backendSkills":"Desarrollo Backend",
+        "level": ["Básico","Intermedio","Avanzado"]
+    },
+    "services": {
+        "startTitle":"Lo que ofrezco",
+        "title": "Servicios", 
+        "cards": {
+            "webDev" : ["Desarrollo Web","Haré aplicaciones web responsivas usando el estack MERN (MongoDB, Express, React.js, Node.js)."],
+            "webScraping" : ["Extracción de datos", "Extraeré datos de cualquier pagina web con Python y almacenaré los datos en formatos .json, .txt, .csv o bien en una base de datos."],
+            "databases": ["Bases de Datos", "Crearé y administraré bases de datos tanto SQL como NoSQL usando MySQL, MariaDB ó MongoDb."],
+            "androidApps": ["Apps moviles","Desarrolaré aplicaciones Android nativas usando Kotlin o Java con Android Studio o React Native."],
+            "macros": ["Macros", "Desarrolaré macros tanto para Microsoft Office como para Google Apps, para automatizar tareas."]
+        }
+    },
+    "portfolio": [
+        "Extracción de datos de fútbol.",
+        "App Android de inspección de alcantarillado.",
+        "Extracción de datos de tennis.",
+        "Página personal con React.js.", 
+        "Adopt a Friend, pagina para adoptar una mascota, en proceso...",
+        "Página para una empresa de topografía."
+    ],
+    "contact": {
+        "startTitle": "Ponte en contacto",
+        "title": "Contáctame", 
+        "form": ["Tu nombre Completo","Tu Correo","Tu mensaje"]
+    },
+    "footer": ["Home", "Conóceme","Experiencia", "Servicios","Portafolio","Contácto"],
+    "rigths": "Todos los derechos reservados."
+}

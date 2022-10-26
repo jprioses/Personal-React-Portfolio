@@ -1,15 +1,17 @@
-import React, {useEffect, useMemo, useRef} from 'react'
-import {Header} from './components/header/Header'
-import {About} from './components/about/About'
-import {Experience} from './components/experience/Experience'
-import {Services} from './components/services/Services'
-import {Portfolio} from './components/portfolio/Portfolio'
-import {Contact} from './components/contact/Contact'
-import {Footer} from './components/footer/Footer'
-import {Nav} from './components/nav/Nav'
-
+import React, {useEffect, useMemo, useRef} from 'react';
+import {Header} from './components/header/Header';
+import {About} from './components/about/About';
+import {Experience} from './components/experience/Experience';
+import {Services} from './components/services/Services';
+import {Portfolio} from './components/portfolio/Portfolio';
+import {Contact} from './components/contact/Contact';
+import {Footer} from './components/footer/Footer';
+import {Nav} from './components/nav/Nav';
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
+
   const homeRef = useRef();
   const aboutRef = useRef();
   const experienceRef = useRef();
@@ -40,14 +42,14 @@ function App() {
 
   return (
     <>
-      <Header ref={homeRef}/>
+      <Header  content={t} ref={homeRef}/>
       <Nav activeNav={activeNav} setActiveNav={setActiveNav}/>
-      <About ref={aboutRef}/>
-      <Experience ref={experienceRef}/>
-      <Services ref={servicesRef}/>
-      <Portfolio ref={portfolioRef}/>
-      <Contact ref={contactRef}/>
-      <Footer ref={footerRef}/>
+      <About content={t} ref={aboutRef}/>
+      <Experience content={t} ref={experienceRef}/>
+      <Services content={t} ref={servicesRef}/>
+      <Portfolio content={t} ref={portfolioRef}/>
+      <Contact content={t} ref={contactRef}/>
+      <Footer content={t} ref={footerRef}/>
     </>
   );
 }
@@ -60,8 +62,6 @@ function useIntersection(element, visibility) {
   {threshold:visibility}
   ), [visibility] ); 
 
-
-
   useEffect(() => {
     
     const elementRef = element.current;
@@ -72,7 +72,6 @@ function useIntersection(element, visibility) {
     };
   },[element, observer]);
 
-  
   return isActive;
 
 }

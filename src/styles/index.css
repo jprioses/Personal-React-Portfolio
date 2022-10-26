@@ -141,6 +141,10 @@ h5 {
   border: none;
 }
 
+.icon-orange {
+  color: var(--color-primary);
+}
+
 img {
   display: block;
   width: 100%;

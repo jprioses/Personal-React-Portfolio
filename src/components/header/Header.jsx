@@ -1,41 +1,56 @@
 import React from 'react'
 import {forwardRef } from 'react';
-
 import './header.css'
-
+import SPACV from "../../assets/CV_SPA_Juan_Pablo_Rios.pdf"
+import ENGCV from "../../assets/CV_ENG_Juan_Pablo_Rios.pdf"
 import TECH from '../../assets/TechIcon.png'
-import CV from '../../assets/cv.pdf'
-
 import {FaLinkedinIn} from 'react-icons/fa'
 import {BsGithub} from 'react-icons/bs'
+import {BsGlobe} from 'react-icons/bs'
+import {TiArrowSortedDown} from 'react-icons/ti'
+
+import i18n from "i18next";
+import 'flag-icon-css/css/flag-icons.min.css';
 
 const size = 20
 
-const Header = forwardRef((props, ref) => {
+const Header = forwardRef(({content}, ref) => {
+
+  const [showLngList, setShowLngList] = React.useState(false);
+
+
   return (
     <header id='home' className='header' ref={ref}>
-      
+    
+      <div className="dropdown__language">
+        <button className="btn-dropdown-toggle" type="button" onClick={() => { 
+          (showLngList===false) ? setShowLngList(true):setShowLngList(false)}}>
+          <BsGlobe className='icon-orange' size={30}/>
+          <TiArrowSortedDown className='icon-orange icon-arrow' size={30}/>
+        </button>
+        <div className={(showLngList===true) ? "dropdown__language-menu show-menu":"dropdown__language-menu"}>
+          <button onClick={()=> {i18n.changeLanguage('en'); setShowLngList(false)}} className="dropdown-item"><span className="flag-icon flag-icon-gb"></span>English</button>
+          <button onClick={()=> {i18n.changeLanguage('es'); setShowLngList(false)}} className="dropdown-item"><span className="flag-icon flag-icon-es"></span>Español</button>
+        </div>
+      </div>
 
       <div className="container header__container"> 
         
-        
         <div className='intro'>
-        <h5>Hello I'm</h5> 
+
+          <h5>{content('header.startTitle')}</h5> 
+
           <h1>Juan Pablo</h1>
           {/* <h1 className="header__logo text-white">{'{CoudIN}'}</h1> */}
-          <h5 >Software Developer Engineer </h5> 
+          <h2 >{content('header.description')} </h2> 
 
           <div className='cta'>
-            <a href={CV} download className='btn'>Download CV</a>
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+            <a href={(content('buttons.cV.1')==='ENG')? ENGCV : SPACV}download className='btn'>{content('buttons.cV.0')}</a>
+            <a href="#contact" className='btn btn-primary'>{content('buttons.contact')}</a>
           </div>
        
         </div>
         
-        
-        
-        
-
         <div className='tech'>
           <img src={TECH} alt="tech" />   
         </div> 

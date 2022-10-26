@@ -1,0 +1,58 @@
+{
+    "header": {
+        "startTitle": "Hello, I'm",
+        "description": "Software Developer Engineer" 
+    },
+    "buttons": {
+        "cV": ["Download CV","ENG"],
+        "contact": "Let's Talk",
+        "sendEmail": "Send Email",
+        "sendMessage": "Send a message",
+        "briefing": "Briefing"
+    },
+    "about": {
+        "startTitle": "Get To Know",
+        "title": "About Me", 
+        "experienceCard": ["Experience","3+ Years Working"],
+        "projectsCard": ["Projects", "20+ Completed"],
+        "description":"My name is Juan Pablo Ríos Escobar, I'm an engineer, passionate about solving problems and bringing new things to real life. As a developer I found a way to do both, thats why I love it. With me you can be confident that I will do my best to get to your goals. I can automate your task, collect data, develop and manage data bases, analise and organise data, develop Android native and Web apps both frontend and backend side."
+    },
+    "experience": {
+        "startTitle":"What Skills I Have",
+        "title": "My Experience", 
+        "frontendSkills":"Frontend Devolopment",
+        "backendSkills":"Backend Devolopment",
+        "level": ["Basic","Intermediate","Advance"]
+    },
+    "services": {
+        "startTitle":"What I Offer",
+        "title": "Services", 
+        "cards": {
+            "webDev" : ["Web Development","I will do responsive web apps using MERN stack (MongoDB, Express, React.js, Node.js)."],
+            "webScraping" : ["Web Scraping", "I will scrap any web page with Python and store the records as .json, .txt, .csv or in a database as well."],
+            "databases": ["Databases", "I will create and manage SQL and NoSQL databases with MySQ, MariaDB or MongoDb."],
+            "androidApps": ["Android Apps","I will develop Android native apps using Kotlin or Java with Android Studio or React Native."],
+            "macros": ["Macros", "I will develop Microsoft Office and Google Apps macros to automate task."]
+        }
+    },
+    "portfolio": [
+        "Soccer Data Scrapper.",
+        "Android Sewer Research App.",
+        "Tennis Data Scrapper.",
+        "Personal landing Page Using React.js.", 
+        "Adopt a Friend, page to find and adopt a pet, in process...",
+        "Surveying company landing page."
+    ],
+    "contact": {
+        "startTitle": "Get In Touch",
+        "title": "Contact Me", 
+        "form": ["Your Full Name","Your Email","Your Message"]
+    },
+    "footer": ["Home", "About","Experience", "Services","Portfolio","Contact"],
+    "rigths": "All rights reserved."
+}
+
+
+
+
+

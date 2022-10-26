@@ -15,21 +15,21 @@ import {GrMysql} from 'react-icons/gr'
 
 const size = 40
 
-const Experience = forwardRef((props, ref) => {
+const Experience = forwardRef(({content}, ref) => {
   return (
     <section id='experience' ref={ref}>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>{content('experience.startTitle')}</h5>
+      <h2>{content('experience.title')}</h2>
 
      <div className="container experience__container">
       <div className="experience">
-        <h5>Frontend Devolopment</h5>
+        <h5>{content('experience.frontendSkills')}</h5>
           <div className="experience__content">
             <article className='experience__details'>
                 <AiOutlineHtml5 size={size} className='experience__details-icon'/>
                 <div>
                   <h4>HTML</h4>
-                  <small className='text-light'>Advance</small>
+                  <small className='text-light'>{content('experience.level.2')}</small>
                 </div>
             </article>
 
@@ -37,7 +37,7 @@ const Experience = forwardRef((props, ref) => {
                 <RiCss3Line size={size}  className='experience__details-icon'/>
                 <div>
                   <h4>CSS</h4>
-                  <small className='text-light'>Advance</small>
+                  <small className='text-light'>{content('experience.level.2')}</small>
                 </div>
             </article>
 
@@ -45,7 +45,7 @@ const Experience = forwardRef((props, ref) => {
                 <DiJavascript1 size={size} className='experience__details-icon'/>
                 <div>
                   <h4>JavaScript</h4>
-                  <small className='text-light'>Advance</small>
+                  <small className='text-light'>{content('experience.level.2')}</small>
                 </div>
             </article>
 
@@ -53,20 +53,20 @@ const Experience = forwardRef((props, ref) => {
                 <FaReact size={size} className='experience__details-icon'/>
                 <div>
                   <h4>React</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <small className='text-light'>{content('experience.level.1')}</small>
                 </div>
             </article>
 
           </div>
       </div>
       <div className="experience">
-        <h5>Backend Devolopment</h5>
+        <h5>{content('experience.backendSkills')}</h5>
           <div className="experience__content">
             <article className='experience__details'>
                 <FaPython size={size} className='experience__details-icon'/>
                 <div>
                   <h4>Python</h4>
-                  <small className='text-light'>Advance</small>
+                  <small className='text-light'>{content('experience.level.2')}</small>
                 </div>
             </article>
 
@@ -74,7 +74,7 @@ const Experience = forwardRef((props, ref) => {
                 <FaNodeJs size={size} className='experience__details-icon'/>
                 <div>
                   <h4>Node JS</h4>
-                  <small className='text-light'>Basic</small>
+                  <small className='text-light'>{content('experience.level.0')}</small>
                 </div>
             </article>
 
@@ -82,7 +82,7 @@ const Experience = forwardRef((props, ref) => {
                 <SiMongodb size={size} className='experience__details-icon'/>
                 <div>
                   <h4>Mongo DB</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <small className='text-light'>{content('experience.level.1')}</small>
                 </div>
             </article>
 
@@ -90,7 +90,7 @@ const Experience = forwardRef((props, ref) => {
                 <GrMysql size={size} className='experience__details-icon'/>
                 <div>
                   <h4>MySQL</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <small className='text-light'>{content('experience.level.1')}</small>
                 </div>
             </article>
           </div> 
