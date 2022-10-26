@@ -12,15 +12,14 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    align-self:flex-start;
-    margin: 10px;
+    align-self: flex-start;
     padding: 10px;
 
 }
 
 .contact__option {
     position: relative;
-    width: 300px;
+    width: 275px;
     height: 100px;
     margin: 10px;
     padding: 20px;
@@ -31,14 +30,14 @@
 
 .contact__option-icon {
     position: relative;
-    left: -100px;
+    left: -95px;
     color: var(--color-primary);
     
 }
 
 .contact__option h4 {
     position: relative;
-    left: 25px;
+    left: 30px;
     top: -50px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -46,7 +45,7 @@
 
 .contact__option p {
     position: relative;
-    left: 20px;
+    left: 30px;
     top: -50px;
     font-size: 2rem;
     font-weight: bold;
@@ -58,13 +57,13 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
-    padding: 10px;
+
     
     
 }
 
 .contact__container input {
-    width: 300px;
+    width: 275px;
     height: 50px;
     margin: 10px;
     padding: 10px;
@@ -76,7 +75,7 @@
 }
 
 .contact__container textarea{
-    width: 300px;
+    width: 275px;
     height: 150px;
     margin: 10px;
     padding: 10px;

@@ -4,8 +4,8 @@ import './portfolio.css'
 import SOCCERDATA from '../../assets/soccer.jpg'
 import APP from '../../assets/app.jpg'
 import TENNIS from '../../assets/tennis.jpg'
-import LP from '../../assets/webpage.jpg'
-import LP2 from '../../assets/webpage-1.jpg'
+import LP from '../../assets/persoalWebPage.png'
+import LP2 from '../../assets/adoptAFriend.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 
@@ -15,42 +15,42 @@ const Portfolio = forwardRef(({content}, ref) => {
     {
       id:1,
       image: SOCCERDATA,
-      title: content('portfolio.0'),
+      title: content('portfolio.items.0'),
       github: 'https://github/',
       demos: 'https://github/'
     },
     {
       id:2,
       image: APP,
-      title: content('portfolio.1'),
+      title: content('portfolio.items.1'),
       github: 'https://github/',
       demos: 'https://github/'
     },
     {
       id:3,
       image: TENNIS,
-      title: content('portfolio.2'),
+      title: content('portfolio.items.2'),
       github: 'https://github/',
       demos: 'https://github/'
     },
     {
       id:4,
       image: LP,
-      title: content('portfolio.3'),
+      title: content('portfolio.items.3'),
       github: 'https://github/',
       demos: 'https://github/'
     },
     {
       id:5,
       image: LP2,
-      title: content('portfolio.4'),
+      title: content('portfolio.items.4'),
       github: 'https://github/',
       demos: 'https://github/'
     },
     {
       id:6,
       image: IMG6,
-      title: content('portfolio.5'),
+      title: content('portfolio.items.5'),
       github: 'https://github/',
       demos: 'https://github/'
     }
@@ -64,8 +64,8 @@ const Portfolio = forwardRef(({content}, ref) => {
       </svg>
       
       <div className='portfolio__content'>
-        <h5>My Recent Work</h5>
-        <h2>Portfolio</h2>
+        <h5>{content('portfolio.startTitle')}</h5>
+        <h2>{content('portfolio.title')}</h2>
 
         <div className="container portfolio__container">
           {data.map(({id, image, title, github,demo}) => {
@@ -80,14 +80,10 @@ const Portfolio = forwardRef(({content}, ref) => {
                   <a href={demo} className='btn-sec btn-primary' target='_blank' rel="noreferrer">{content('buttons.briefing')}</a>
                 </div>
               </article>
-
             )
           })}
         </div>
       </div>
-      
-
-     
 
     </section>
     

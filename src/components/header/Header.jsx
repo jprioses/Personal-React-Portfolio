@@ -18,7 +18,6 @@ const Header = forwardRef(({content}, ref) => {
 
   const [showLngList, setShowLngList] = React.useState(false);
 
-
   return (
     <header id='home' className='header' ref={ref}>
     
@@ -55,7 +54,6 @@ const Header = forwardRef(({content}, ref) => {
           <img src={TECH} alt="tech" />   
         </div> 
 
-       
       </div>
       
       <div className='header__socials'>
@@ -67,7 +65,6 @@ const Header = forwardRef(({content}, ref) => {
             <path fill="#FCFFFE" fillOpacity="1" d="M0,0L80,48C160,96,320,192,480,213.3C640,235,800,181,960,170.7C1120,160,1280,192,1360,208L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
       </svg>
       
-     
     </header>
   )
 })

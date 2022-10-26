@@ -1,7 +1,7 @@
 {
     "header": {
         "startTitle": "Hola, soy",
-        "description": "Ingeniero Desarrollador de Software" 
+        "description": "Ingeniero Desarrollador" 
     },
     "buttons": {
         "cV": ["Descargar CV","SPA"],
@@ -15,10 +15,10 @@
         "title": "Sobre Mí", 
         "experienceCard": ["Experiencia","3+ Años Trabajando"],
         "projectsCard": ["Proyectos", "20+ Completados"],
-        "description":"Mi nombre es Juan Pablo Ríos Escobar, soy Ingeniero, apasionado por solucionar problemas y traer a luz nuevas cosas. Como desarrollador encontré una forma de hacer ambas, por eso es que me encata. Conmigo puedes tener la plena confianza de que voy a dar lo mejor de mí para ayudarte a cumplir tus objetivos. Puedo automatizar tus tareas, recopilar datos, desarrollar y administrar bases de datos, analizar y organizar datos y desarrollar aplicaciones moviles y web tanto del lado frontend como el backend."
+        "description":"Mi nombre es Juan Pablo, soy Ingeniero y desarrollador; me apasiona ayudarle a las empresas a encontrar nuevas opciones o rutas para solucionar sus inconvenientes y, además, crear nuevas alternativas para ellos. Uno de mis objetivos principales es ayudarte a lograr los tuyos, para ello, puedo apoyarte con la automatización de tareas, recopilar datos, analizarlos y organizarlos; también, puedo desarrollar y administrar bases de datos, y, crear aplicaciones moviles y web tanto del lado frontend como el backend."
     },
     "experience": {
-        "startTitle":"Habilidades que tengo",
+        "startTitle":"Habilidades",
         "title": "Mi Experiencia", 
         "frontendSkills":"Desarrollo Frontend",
         "backendSkills":"Desarrollo Backend",
@@ -35,19 +35,22 @@
             "macros": ["Macros", "Desarrolaré macros tanto para Microsoft Office como para Google Apps, para automatizar tareas."]
         }
     },
-    "portfolio": [
+    "portfolio": {
+        "startTitle":"Mi Trabajo Reciente",
+        "title": "Portafolio", 
+        "items":[
         "Extracción de datos de fútbol.",
         "App Android de inspección de alcantarillado.",
         "Extracción de datos de tennis.",
         "Página personal con React.js.", 
-        "Adopt a Friend, pagina para adoptar una mascota, en proceso...",
-        "Página para una empresa de topografía."
-    ],
+        "Página para adoptar. En Proceso...",
+        "Página para una empresa de topografía."]
+    },
     "contact": {
         "startTitle": "Ponte en contacto",
         "title": "Contáctame", 
         "form": ["Tu nombre Completo","Tu Correo","Tu mensaje"]
     },
-    "footer": ["Home", "Conóceme","Experiencia", "Servicios","Portafolio","Contácto"],
+    "footer": ["Home", "Conóceme","Experiencia", "Servicios","Portafolio","Contacto"],
     "rigths": "Todos los derechos reservados."
 }

@@ -15,7 +15,7 @@
         "title": "About Me", 
         "experienceCard": ["Experience","3+ Years Working"],
         "projectsCard": ["Projects", "20+ Completed"],
-        "description":"My name is Juan Pablo Ríos Escobar, I'm an engineer, passionate about solving problems and bringing new things to real life. As a developer I found a way to do both, thats why I love it. With me you can be confident that I will do my best to get to your goals. I can automate your task, collect data, develop and manage data bases, analise and organise data, develop Android native and Web apps both frontend and backend side."
+        "description":"My name is Juan Pablo, I'm engineer and developer, my passion is helping companies to find ways to solve their chellenges and building new options to them. My main goal is helping you to achieve yours, for that, I could give you support on task automation, collect data, analyse it and organise it, I colud develop and manage databases too, and, build native and web apps both frontend side and backend side"
     },
     "experience": {
         "startTitle":"What Skills I Have",
@@ -35,14 +35,17 @@
             "macros": ["Macros", "I will develop Microsoft Office and Google Apps macros to automate task."]
         }
     },
-    "portfolio": [
+    "portfolio": {
+        "startTitle":"My Recent Work",
+        "title": "Portfolio", 
+        "items":[
         "Soccer Data Scrapper.",
         "Android Sewer Research App.",
         "Tennis Data Scrapper.",
         "Personal landing Page Using React.js.", 
-        "Adopt a Friend, page to find and adopt a pet, in process...",
-        "Surveying company landing page."
-    ],
+        "Page to find and adopt. In process...",
+        "Surveying company landing page."]
+    },
     "contact": {
         "startTitle": "Get In Touch",
         "title": "Contact Me", 

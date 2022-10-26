@@ -4,8 +4,8 @@
 
 .dropdown__language {
     position: relative;
-    width: 130px;
-    left: 70vw;
+    width: 50px;
+    left: 80vw;
 }
 
 .btn-dropdown-toggle {
@@ -51,6 +51,7 @@
 
 .show-menu {
     position: absolute;
+    left: -60px;
     z-index: 2;
     display: flex;
     flex-direction: column;

@@ -26,18 +26,17 @@
 }
 
 .portfolio__item {
+    width: 300px;
+    height: 550px;
     display: flex;
-    margin: 10px 20px;
+    margin: 10px 30px;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
 .portfolio__item-image {
-
-    aspect-ratio: 1/1;
-    width: 80%;
-    min-height: 300px;
-    min-width: 300px;
-    max-width: 500px;
+    height: 300px;
+    width: 300px;
     border-radius: 8rem;
     margin: 30px auto;
     background-color: var(--color-bg-variant);
@@ -64,7 +63,6 @@
     justify-content: center;
     font-weight: bold;
     font-size: 1.5rem;
-    
 }
 
 .portfolio__item-cta a {
