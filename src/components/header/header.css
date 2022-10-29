@@ -36,6 +36,7 @@
     text-align: left;
     color: var(--color-white);
     padding: 5px;
+    transition: var(--transition);
 }
 
 .dropdown-item:hover {
@@ -61,10 +62,6 @@
     position: relative;
     padding-top: 50px;  
 }
-
-
-
-
 
 .header__container h1 {
     font-size: 4rem;

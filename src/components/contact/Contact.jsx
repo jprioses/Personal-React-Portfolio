@@ -28,12 +28,12 @@ const size = 50
       <div className='container contact__container'>
         <div className="contact__options">
           <a href="mailto:jprioses@outlook.com" className="contact__option">
-            <MdOutlineEmail  size={size} className='contact__option-icon'/>
+            <MdOutlineEmail  size={size} className='contact__option-icon icon-orange'/>
             <h4>jprioses@outlook.com</h4>
             <p>{content('buttons.sendMessage')}</p>
           </a>
           <a href="https://api.whatsapp.com/send?phone=573164938408" className="contact__option">
-            <BsWhatsapp size={size} className='contact__option-icon'/>
+            <BsWhatsapp size={size} className='contact__option-icon icon-orange'/>
             <h4>+57 316 493 8408</h4>
             <p>{content('buttons.sendMessage')}</p>
           </a>

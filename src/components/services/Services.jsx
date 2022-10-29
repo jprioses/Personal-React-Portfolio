@@ -19,27 +19,27 @@ const Services  = forwardRef(({content}, ref) => {
       <div className="container services__container">
     
         <article className='service'>
-            <BsGlobe size={size} className='service__icon'/>
+            <BsGlobe size={size} className='service__icon icon-orange'/>
             <h3>{content('services.cards.webDev.0')}</h3>
             <p>{content('services.cards.webDev.1')}</p>
         </article>
         <article className='service'>
-            <BsClipboardData size={size} className='service__icon'/>
+            <BsClipboardData size={size} className='service__icon icon-orange'/>
             <h3>{content('services.cards.webScraping.0')}</h3>
             <p>{content('services.cards.webScraping.1')}</p>
         </article>
         <article className='service'>
-            <FiDatabase size={size} className='service__icon'/>
+            <FiDatabase size={size} className='service__icon icon-orange'/>
             <h3>{content('services.cards.databases.0')}</h3>
             <p>{content('services.cards.databases.1')}</p>
         </article>
         <article className='service'>
-            <AiOutlineMobile size={size} className='service__icon'/>
+            <AiOutlineMobile size={size} className='service__icon icon-orange'/>
             <h3>{content('services.cards.androidApps.0')}</h3>
             <p>{content('services.cards.androidApps.1')}</p>
         </article>
         <article className='service'>
-            <DiCodeBadge size={size} className='service__icon'/>
+            <DiCodeBadge size={size} className='service__icon icon-orange'/>
             <h3>{content('services.cards.macros.0')}</h3>
             <p>{content('services.cards.macros.1')}</p>
         </article>

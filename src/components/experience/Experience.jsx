@@ -26,7 +26,7 @@ const Experience = forwardRef(({content}, ref) => {
         <h5>{content('experience.frontendSkills')}</h5>
           <div className="experience__content">
             <article className='experience__details'>
-                <AiOutlineHtml5 size={size} className='experience__details-icon'/>
+                <AiOutlineHtml5 size={size} className='icon-orange'/>
                 <div>
                   <h4>HTML</h4>
                   <small className='text-light'>{content('experience.level.2')}</small>
@@ -34,7 +34,7 @@ const Experience = forwardRef(({content}, ref) => {
             </article>
 
             <article className='experience__details'>
-                <RiCss3Line size={size}  className='experience__details-icon'/>
+                <RiCss3Line size={size}  className='icon-orange'/>
                 <div>
                   <h4>CSS</h4>
                   <small className='text-light'>{content('experience.level.2')}</small>
@@ -42,7 +42,7 @@ const Experience = forwardRef(({content}, ref) => {
             </article>
 
             <article className='experience__details'>
-                <DiJavascript1 size={size} className='experience__details-icon'/>
+                <DiJavascript1 size={size} className='icon-orange'/>
                 <div>
                   <h4>JavaScript</h4>
                   <small className='text-light'>{content('experience.level.2')}</small>
@@ -50,7 +50,7 @@ const Experience = forwardRef(({content}, ref) => {
             </article>
 
             <article className='experience__details'>
-                <FaReact size={size} className='experience__details-icon'/>
+                <FaReact size={size} className='icon-orange'/>
                 <div>
                   <h4>React</h4>
                   <small className='text-light'>{content('experience.level.1')}</small>
@@ -63,7 +63,7 @@ const Experience = forwardRef(({content}, ref) => {
         <h5>{content('experience.backendSkills')}</h5>
           <div className="experience__content">
             <article className='experience__details'>
-                <FaPython size={size} className='experience__details-icon'/>
+                <FaPython size={size} className='icon-orange'/>
                 <div>
                   <h4>Python</h4>
                   <small className='text-light'>{content('experience.level.2')}</small>
@@ -71,7 +71,7 @@ const Experience = forwardRef(({content}, ref) => {
             </article>
 
             <article className='experience__details'>
-                <FaNodeJs size={size} className='experience__details-icon'/>
+                <FaNodeJs size={size} className='icon-orange'/>
                 <div>
                   <h4>Node JS</h4>
                   <small className='text-light'>{content('experience.level.0')}</small>
@@ -79,7 +79,7 @@ const Experience = forwardRef(({content}, ref) => {
             </article>
 
             <article className='experience__details'>
-                <SiMongodb size={size} className='experience__details-icon'/>
+                <SiMongodb size={size} className='icon-orange'/>
                 <div>
                   <h4>Mongo DB</h4>
                   <small className='text-light'>{content('experience.level.1')}</small>
@@ -87,7 +87,7 @@ const Experience = forwardRef(({content}, ref) => {
             </article>
 
             <article className='experience__details'>
-                <GrMysql size={size} className='experience__details-icon'/>
+                <GrMysql size={size} className='icon-orange'/>
                 <div>
                   <h4>MySQL</h4>
                   <small className='text-light'>{content('experience.level.1')}</small>

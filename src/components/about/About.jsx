@@ -3,7 +3,7 @@ import {forwardRef} from 'react';
 import './about.css'
 import Me from '../../assets/me-about.jpeg'
 import {FiAward} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {FaLaptopCode} from 'react-icons/fa'
 
 const About = forwardRef(({content}, ref) => {
   return (
@@ -21,13 +21,13 @@ const About = forwardRef(({content}, ref) => {
         <div className="about__cards">
 
             <article className='about__card'>
-                <FiAward className='about__icon' size={40}/>
+                <FiAward className='about__icon icon-orange' size={40}/>
                 <h5>{content('about.experienceCard.0')}</h5>
                 <small>{content('about.experienceCard.1')}</small>
             </article>
 
             <article className='about__card'>
-                <VscFolderLibrary className='about__icon' size={40}/>
+                <FaLaptopCode className='about__icon icon-orange' size={40}/>
                 <h5>{content('about.projectsCard.0')}</h5>
                 <small>{content('about.projectsCard.1')}</small>
             </article>

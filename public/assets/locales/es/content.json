@@ -15,7 +15,7 @@
         "title": "Sobre Mí", 
         "experienceCard": ["Experiencia","3+ Años Trabajando"],
         "projectsCard": ["Proyectos", "20+ Completados"],
-        "description":"Mi nombre es Juan Pablo, soy Ingeniero y desarrollador; me apasiona ayudarle a las empresas a encontrar nuevas opciones o rutas para solucionar sus inconvenientes y, además, crear nuevas alternativas para ellos. Uno de mis objetivos principales es ayudarte a lograr los tuyos, para ello, puedo apoyarte con la automatización de tareas, recopilar datos, analizarlos y organizarlos; también, puedo desarrollar y administrar bases de datos, y, crear aplicaciones moviles y web tanto del lado frontend como el backend."
+        "description":"Mi nombre es Juan Pablo, soy Ingeniero y desarrollador; me apasiona ayudarle a las empresas a encontrar nuevas opciones o rutas para solucionar sus inconvenientes y, además, crear nuevas alternativas para ellos. Uno de mis objetivos principales es ayudarte a lograr los tuyos, para ello, puedo apoyarte con la automatización de tareas, recopilar datos, analizarlos y organizarlos; también, puedo desarrollar y administrar bases de datos, además crear aplicaciones moviles y web tanto del lado frontend como el backend."
     },
     "experience": {
         "startTitle":"Habilidades",
@@ -31,7 +31,7 @@
             "webDev" : ["Desarrollo Web","Haré aplicaciones web responsivas usando el estack MERN (MongoDB, Express, React.js, Node.js)."],
             "webScraping" : ["Extracción de datos", "Extraeré datos de cualquier pagina web con Python y almacenaré los datos en formatos .json, .txt, .csv o bien en una base de datos."],
             "databases": ["Bases de Datos", "Crearé y administraré bases de datos tanto SQL como NoSQL usando MySQL, MariaDB ó MongoDb."],
-            "androidApps": ["Apps moviles","Desarrolaré aplicaciones Android nativas usando Kotlin o Java con Android Studio o React Native."],
+            "androidApps": ["Apps moviles","Desarrollaré aplicaciones Android nativas usando Kotlin o Java con Android Studio o React Native."],
             "macros": ["Macros", "Desarrolaré macros tanto para Microsoft Office como para Google Apps, para automatizar tareas."]
         }
     },

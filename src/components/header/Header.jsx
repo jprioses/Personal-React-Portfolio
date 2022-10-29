@@ -6,7 +6,7 @@ import ENGCV from "../../assets/CV_ENG_Juan_Pablo_Rios.pdf"
 import TECH from '../../assets/TechIcon.png'
 import {FaLinkedinIn} from 'react-icons/fa'
 import {BsGithub} from 'react-icons/bs'
-import {BsGlobe} from 'react-icons/bs'
+import {VscGlobe} from 'react-icons/vsc'
 import {TiArrowSortedDown} from 'react-icons/ti'
 
 import i18n from "i18next";
@@ -24,7 +24,7 @@ const Header = forwardRef(({content}, ref) => {
       <div className="dropdown__language">
         <button className="btn-dropdown-toggle" type="button" onClick={() => { 
           (showLngList===false) ? setShowLngList(true):setShowLngList(false)}}>
-          <BsGlobe className='icon-orange' size={30}/>
+          <VscGlobe className='icon-orange' size={30}/>
           <TiArrowSortedDown className='icon-orange icon-arrow' size={30}/>
         </button>
         <div className={(showLngList===true) ? "dropdown__language-menu show-menu":"dropdown__language-menu"}>

@@ -16,7 +16,7 @@ const Portfolio = forwardRef(({content}, ref) => {
       id:1,
       image: SOCCERDATA,
       title: content('portfolio.items.0'),
-      github: 'https://github/',
+      github: 'https://github.com/jprioses/soccer-data-scraper',
       demos: 'https://github/'
     },
     {
@@ -37,7 +37,7 @@ const Portfolio = forwardRef(({content}, ref) => {
       id:4,
       image: LP,
       title: content('portfolio.items.3'),
-      github: 'https://github/',
+      github: 'https://github.com/jprioses/Personal-React-Portfolio',
       demos: 'https://github/'
     },
     {
