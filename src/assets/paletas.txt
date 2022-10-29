@@ -1,0 +1,42 @@
+Ejemplo 1
+--color-bg: #252A94;
+--color-secundary: #5A60E0;
+--color-primary: #E04600;
+--color-green:#65E330;
+--color-white: #fff;
+--color-light: #968983;
+
+Ejemplo 2
+--color-bg: #2202FF;
+--color-secundary: #7066B3;
+--color-primary: #FF6A03;
+--color-green:#15B30B;
+--color-white: #fff;
+--color-light: #E2FAE1;
+
+Ejemplo 3
+--color-bg: #1A00B8;
+--color-secundary: #7567C7;
+--color-primary: #FF6C00;
+--color-green:#19FF0D;
+--color-white: #fff;
+--color-light: #D4D4D4;
+
+Ejemplo 4
+--color-bg: #1A00B8;
+--color-secundary: #7567C7;
+--color-primary: #FF6C00;
+--color-green:#19FF0D;
+--color-white: #fff;
+--color-light: #D4D4D4;7
+
+Ejemplo pinterst
+--color-bg: #1D2A84;
+--color-bg-variant:#656FCB
+--color-secundary: #6A79E1;
+--color-primary: #FD9B01;
+--color-white: #FCFFFE;
+--color-light: #D4D4D4;
+
+
+"Mi nombre es Juan Pablo Ríos Escobar, soy Ingeniero, apasionado por solucionar problemas y traer a luz nuevas cosas. Como desarrollador encontré una forma de hacer ambas, por eso es que me encata. Conmigo puedes tener la plena confianza de que voy a dar lo mejor de mí para ayudarte a cumplir tus objetivos. Puedo automatizar tus tareas, recopilar datos, desarrollar y administrar bases de datos, analizar y organizar datos y desarrollar aplicaciones moviles y web tanto del lado frontend como el backend."
