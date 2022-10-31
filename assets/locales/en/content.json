@@ -45,8 +45,8 @@
         "Personal landing Page Using React.js.", 
         "Page to find and adopt. In process...",
         "Surveying company landing page."],
-        "alertGitHub": "I'am sorry: At present I'm in the process of uploading my recent projects to GitHub.",
-        "alertBreif": "I'am sorry: At present I'm in the process of making the briefing of my projects."
+        "alertGitHub": "I am sorry: At moment I'm uploading my recent projects to GitHub.",
+        "alertBreif": "I am sorry: At moment I'm making the briefing files of my projects."
     },
     "contact": {
         "startTitle": "Get In Touch",
