@@ -19,7 +19,7 @@ i18n
                 caches: ['cookie']
     },
     backend: {
-      loadPath: '/assets/locales/{{lng}}/content.json'
+      loadPath: process.env.PUBLIC_URL + '/assets/locales/{{lng}}/content.json'
     },
     react: {useSuspense: false}
 
