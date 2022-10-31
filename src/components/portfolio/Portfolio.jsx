@@ -17,42 +17,42 @@ const Portfolio = forwardRef(({content}, ref) => {
       image: SOCCERDATA,
       title: content('portfolio.items.0'),
       github: 'https://github.com/jprioses/soccer-data-scraper',
-      demos: 'https://github/'
+      briefing: content('portfolio.alertBreif'),
     },
     {
       id:2,
       image: APP,
       title: content('portfolio.items.1'),
-      github: 'https://github/',
-      demos: 'https://github/'
+      github: 'https://github.com/jprioses/MH-Invest-Android',
+      briefing: content('portfolio.alertBreif')
     },
     {
       id:3,
       image: TENNIS,
       title: content('portfolio.items.2'),
-      github: 'https://github/',
-      demos: 'https://github/'
+      github: null,
+      briefing: content('portfolio.alertBreif'),
     },
     {
       id:4,
       image: LP,
       title: content('portfolio.items.3'),
       github: 'https://github.com/jprioses/Personal-React-Portfolio',
-      demos: 'https://github/'
+      briefing: content('portfolio.alertBreif'),
     },
     {
       id:5,
       image: LP2,
       title: content('portfolio.items.4'),
-      github: 'https://github/',
-      demos: 'https://github/'
+      github: null,
+      briefing: content('portfolio.alertBreif'),
     },
     {
       id:6,
       image: IMG6,
       title: content('portfolio.items.5'),
-      github: 'https://github/',
-      demos: 'https://github/'
+      github: null,
+      briefing: content('portfolio.alertBreif'),
     }
     
   ]
@@ -68,7 +68,7 @@ const Portfolio = forwardRef(({content}, ref) => {
         <h2>{content('portfolio.title')}</h2>
 
         <div className="container portfolio__container">
-          {data.map(({id, image, title, github,demo}) => {
+          {data.map(({id, image, title, github,briefing}) => {
             return (
               <article className="portfolio__item" key={id}>
                 <div className="portfolio__item-image">
@@ -76,8 +76,8 @@ const Portfolio = forwardRef(({content}, ref) => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className='btn-sec'>GitHub</a>
-                  <a href={demo} className='btn-sec btn-primary' target='_blank' rel="noreferrer">{content('buttons.briefing')}</a>
+                  <a href={(github) ? github : '#portfolio'} onClick={() => {if(!github) alert(content('portfolio.alertGitHub'))}} target={(github) ? '_blank' : ''} rel="noreferrer" className='btn-sec'>GitHub</a>
+                  <a href='#portfolio' onClick={() => alert(briefing)} className='btn-sec btn-primary'>{content('buttons.briefing')}</a>
                 </div>
               </article>
             )

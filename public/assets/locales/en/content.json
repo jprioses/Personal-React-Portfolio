@@ -28,11 +28,11 @@
         "startTitle":"What I Offer",
         "title": "Services", 
         "cards": {
-            "webDev" : ["Web Development","I will do responsive web apps using MERN stack (MongoDB, Express, React.js, Node.js)."],
-            "webScraping" : ["Web Scraping", "I will scrap any web page with Python and store the records as .json, .txt, .csv or in a database as well."],
-            "databases": ["Databases", "I will create and manage SQL and NoSQL databases with MySQ, MariaDB or MongoDb."],
-            "androidApps": ["Android Apps","I will develop Android native apps using Kotlin or Java with Android Studio or React Native."],
-            "macros": ["Macros", "I will develop Microsoft Office and Google Apps macros to automate task."]
+            "webDev" : ["Web Development","Making responsive web apps using MERN stack (MongoDB, Express, React.js, Node.js)."],
+            "webScraping" : ["Web Scraping", "Scraping any web page with Python and store the records as .json, .txt, .csv or in a database as well."],
+            "databases": ["Databases", "Development and management of SQL and NoSQL databases with MySQ, MariaDB or MongoDb."],
+            "androidApps": ["Android Apps","Development of Android native apps using Kotlin or Java with Android Studio or React Native."],
+            "macros": ["Macros", "Making Microsoft Office and Google Apps macros to automate task."]
         }
     },
     "portfolio": {
@@ -44,7 +44,9 @@
         "Tennis Data Scrapper.",
         "Personal landing Page Using React.js.", 
         "Page to find and adopt. In process...",
-        "Surveying company landing page."]
+        "Surveying company landing page."],
+        "alertGitHub": "I'am sorry: At present I'm in the process of uploading my recent projects to GitHub.",
+        "alertBreif": "I'am sorry: At present I'm in the process of making the briefing of my projects."
     },
     "contact": {
         "startTitle": "Get In Touch",
