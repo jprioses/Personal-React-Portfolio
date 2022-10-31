@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-React-Portfolio/static/css/main.c4b0718f.css",
-    "main.js": "/Personal-React-Portfolio/static/js/main.e33ca39e.js",
+    "main.js": "/Personal-React-Portfolio/static/js/main.101c6f60.js",
     "static/media/do.svg": "/Personal-React-Portfolio/static/media/do.3ecb625b75ec64be4376.svg",
     "static/media/rs.svg": "/Personal-React-Portfolio/static/media/rs.9f00a7d8eafa6f593713.svg",
     "static/media/CV_ENG_Juan_Pablo_Rios.pdf": "/Personal-React-Portfolio/static/media/CV_ENG_Juan_Pablo_Rios.aafde10d9b4a71926140.pdf",
@@ -280,10 +280,10 @@
     "static/media/de.svg": "/Personal-React-Portfolio/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/Personal-React-Portfolio/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "main.c4b0718f.css.map": "/Personal-React-Portfolio/static/css/main.c4b0718f.css.map",
-    "main.e33ca39e.js.map": "/Personal-React-Portfolio/static/js/main.e33ca39e.js.map"
+    "main.101c6f60.js.map": "/Personal-React-Portfolio/static/js/main.101c6f60.js.map"
   },
   "entrypoints": [
     "static/css/main.c4b0718f.css",
-    "static/js/main.e33ca39e.js"
+    "static/js/main.101c6f60.js"
   ]
 }
