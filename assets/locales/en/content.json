@@ -1,0 +1,63 @@
+{
+    "header": {
+        "startTitle": "Hello, I'm",
+        "description": "Software Developer Engineer" 
+    },
+    "buttons": {
+        "cV": ["Download CV","ENG"],
+        "contact": "Let's Talk",
+        "sendEmail": "Send Email",
+        "sendMessage": "Send a message",
+        "briefing": "Briefing"
+    },
+    "about": {
+        "startTitle": "Get To Know",
+        "title": "About Me", 
+        "experienceCard": ["Experience","3+ Years Working"],
+        "projectsCard": ["Projects", "20+ Completed"],
+        "description":"My name is Juan Pablo, I'm engineer and developer, my passion is helping companies to find ways to solve their chellenges and building new options to them. My main goal is helping you to achieve yours, for that, I could give you support on task automation, collect data, analyse it and organise it, I colud develop and manage databases too, and build native and web apps both frontend side and backend side"
+    },
+    "experience": {
+        "startTitle":"What Skills I Have",
+        "title": "My Experience", 
+        "frontendSkills":"Frontend Devolopment",
+        "backendSkills":"Backend Devolopment",
+        "level": ["Basic","Intermediate","Advance"]
+    },
+    "services": {
+        "startTitle":"What I Offer",
+        "title": "Services", 
+        "cards": {
+            "webDev" : ["Web Development","Making responsive web apps using MERN stack (MongoDB, Express, React.js, Node.js)."],
+            "webScraping" : ["Web Scraping", "Scraping any web page with Python and store the records as .json, .txt, .csv or in a database as well."],
+            "databases": ["Databases", "Development and management of SQL and NoSQL databases with MySQ, MariaDB or MongoDb."],
+            "androidApps": ["Android Apps","Development of Android native apps using Kotlin or Java with Android Studio or React Native."],
+            "macros": ["Macros", "Making Microsoft Office and Google Apps macros to automate task."]
+        }
+    },
+    "portfolio": {
+        "startTitle":"My Recent Work",
+        "title": "Portfolio", 
+        "items":[
+        "Soccer Data Scrapper.",
+        "Android Sewer Research App.",
+        "Tennis Data Scrapper.",
+        "Personal landing Page Using React.js.", 
+        "Page to find and adopt. In process...",
+        "Surveying company landing page."],
+        "alertGitHub": "I'am sorry: At present I'm in the process of uploading my recent projects to GitHub.",
+        "alertBreif": "I'am sorry: At present I'm in the process of making the briefing of my projects."
+    },
+    "contact": {
+        "startTitle": "Get In Touch",
+        "title": "Contact Me", 
+        "form": ["Your Full Name","Your Email","Your Message"]
+    },
+    "footer": ["Home", "About","Experience", "Services","Portfolio","Contact"],
+    "rigths": "All rights reserved."
+}
+
+
+
+
+
