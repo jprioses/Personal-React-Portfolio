@@ -50,7 +50,7 @@
     },
     "contact": {
         "startTitle": "Get In Touch",
-        "title": "Contact Me", 
+        "title": "Let's Talk", 
         "form": ["Your Full Name","Your Email","Your Message"]
     },
     "footer": ["Home", "About","Experience", "Services","Portfolio","Contact"],
