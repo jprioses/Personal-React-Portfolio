@@ -50,7 +50,7 @@
     },
     "contact": {
         "startTitle": "Ponte en contacto",
-        "title": "Contáctame", 
+        "title": "Hablemos", 
         "form": ["Tu nombre Completo","Tu Correo","Tu mensaje"]
     },
     "footer": ["Home", "Conóceme","Experiencia", "Servicios","Portafolio","Contacto"],

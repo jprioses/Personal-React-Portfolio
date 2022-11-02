@@ -76,8 +76,8 @@ const Portfolio = forwardRef(({content}, ref) => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={(github) ? github : '#portfolio'} onClick={() => {if(!github) alert(content('portfolio.alertGitHub'))}} target={(github) ? '_blank' : ''} rel="noreferrer" className='btn-sec'>GitHub</a>
-                  <a href='#portfolio' onClick={() => alert(briefing)} className='btn-sec btn-primary'>{content('buttons.briefing')}</a>
+                  <a href={(github) ? github : '#0'} onClick={() => {if(!github) alert(content('portfolio.alertGitHub'))}} target={(github) ? '_blank' : ''} rel="noreferrer" className='btn-sec'>GitHub</a>
+                  <a href='#0' onClick={() => alert(briefing)} className='btn-sec btn-primary'>{content('buttons.briefing')}</a>
                 </div>
               </article>
             )
