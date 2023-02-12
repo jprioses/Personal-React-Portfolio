@@ -21,7 +21,7 @@ const Footer = forwardRef(({content}, ref) =>  {
 
       <div className="footer__socials">
           <a href="https://www.linkedin.com/in/juan-pablo-rios-escobar-8a460a24b/" target='_blank' rel="noreferrer" className='social__icons'><FaLinkedinIn className='icon' size={size}/></a>
-          <a href="https://github.com/jprioses" target='_blank' rel="noreferrer"  className='social__icons'><BsGithub className='icon' size={size}/></a>
+          <a href="https://github.com/jprioses?tab=repositories" target='_blank' rel="noreferrer"  className='social__icons'><BsGithub className='icon' size={size}/></a>
           <a href="https://instagram.com/jprioses?igshid=YmMyMTA2M2Y=" target='_blank' rel="noreferrer" className='social__icons'><BsInstagram size={size}/></a>
       </div>
 

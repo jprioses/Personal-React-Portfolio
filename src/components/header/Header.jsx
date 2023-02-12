@@ -57,8 +57,8 @@ const Header = forwardRef(({content}, ref) => {
       </div>
       
       <div className='header__socials'>
-          <a href="https://linkedin.com" target="_blank" className='social__icons'rel="noreferrer"><FaLinkedinIn className='icon' size={size}/></a>
-          <a href="https://github.com" target="_blank" className='social__icons' rel="noreferrer"><BsGithub className='icon' size={size}/></a>
+          <a href="https://www.linkedin.com/in/juan-pablo-rios-escobar-8a460a24b/" target="_blank" className='social__icons'rel="noreferrer"><FaLinkedinIn className='icon' size={size}/></a>
+          <a href="https://github.com/jprioses?tab=repositories" target="_blank" className='social__icons' rel="noreferrer"><BsGithub className='icon' size={size}/></a>
       </div>
 
       <svg className='rounded-bg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
