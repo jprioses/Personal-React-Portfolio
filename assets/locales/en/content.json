@@ -8,14 +8,15 @@
         "contact": "Let's Talk",
         "sendEmail": "Send Email",
         "sendMessage": "Send a message",
-        "briefing": "Briefing"
+        "briefing": "Briefing",
+        "project" : "Project"
     },
     "about": {
         "startTitle": "Get To Know",
         "title": "About Me", 
         "experienceCard": ["Experience","3+ Years Working"],
         "projectsCard": ["Projects", "20+ Completed"],
-        "description":"My name is Juan Pablo, I'm engineer and developer, my passion is helping companies to find ways to solve their chellenges and building new options to them. My main goal is helping you to achieve yours, for that, I could give you support on task automation, collect data, analyse it and organise it, I colud develop and manage databases too, and build native and web apps both frontend side and backend side"
+        "description":"My name is Juan Pablo, an Engineer and developer passionate about finding new solutions for businesses and creating innovative alternatives. My goal is to help you achieve your goals, and to do so, I can offer you my skills in developing web and mobile applications, both on the frontend and backend, task automation, data analysis and organization, as well as in the creation and management of databases. Let's work together to take your company to the next level!"
     },
     "experience": {
         "startTitle":"What Skills I Have",
