@@ -6,7 +6,7 @@ import APP from '../../assets/app.jpg'
 import TENNIS from '../../assets/tennis.jpg'
 import LP from '../../assets/persoalWebPage.png'
 import LP2 from '../../assets/adoptAFriend.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import TOPOAPLICADA from '../../assets/topoAplicada.png'
 
 
 const Portfolio = forwardRef(({content}, ref) => {
@@ -49,9 +49,9 @@ const Portfolio = forwardRef(({content}, ref) => {
     },
     {
       id:6,
-      image: IMG6,
+      image: TOPOAPLICADA,
       title: content('portfolio.items.5'),
-      github: null,
+      github: 'https://topografiaaplicada.netlify.app/',
       briefing: content('portfolio.alertBreif'),
     }
     
@@ -76,7 +76,7 @@ const Portfolio = forwardRef(({content}, ref) => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={(github) ? github : '#0'} onClick={() => {if(!github) alert(content('portfolio.alertGitHub'))}} target={(github) ? '_blank' : ''} rel="noreferrer" className='btn-sec'>GitHub</a>
+                  <a href={(github) ? github : '#0'} onClick={() => {if(!github) alert(content('portfolio.alertGitHub'))}} target={(github) ? '_blank' : ''} rel="noreferrer" className='btn-sec'>{content('buttons.project')}</a>
                   <a href='#0' onClick={() => alert(briefing)} className='btn-sec btn-primary'>{content('buttons.briefing')}</a>
                 </div>
               </article>
