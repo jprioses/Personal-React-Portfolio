@@ -5,7 +5,7 @@ import SOCCERDATA from '../../assets/soccer.jpg'
 import APP from '../../assets/app.jpg'
 import TENNIS from '../../assets/tennis.jpg'
 import LP from '../../assets/persoalWebPage.png'
-import LP2 from '../../assets/adoptAFriend.jpg'
+import CONNECT4GAME from '../../assets/connect-four-game.png'
 import TOPOAPLICADA from '../../assets/topoAplicada.png'
 
 
@@ -18,20 +18,23 @@ const Portfolio = forwardRef(({content}, ref) => {
       title: content('portfolio.items.0'),
       github: 'https://github.com/jprioses/soccer-data-scraper',
       briefing: content('portfolio.alertBreif'),
+      live: null
     },
     {
       id:2,
       image: APP,
       title: content('portfolio.items.1'),
       github: 'https://github.com/jprioses/MH-Invest-Android',
-      briefing: content('portfolio.alertBreif')
+      briefing: content('portfolio.alertBreif'),
+      live: null
     },
     {
       id:3,
       image: TENNIS,
       title: content('portfolio.items.2'),
-      github: null,
+      github: 'null',
       briefing: content('portfolio.alertBreif'),
+      live: null
     },
     {
       id:4,
@@ -39,13 +42,15 @@ const Portfolio = forwardRef(({content}, ref) => {
       title: content('portfolio.items.3'),
       github: 'https://github.com/jprioses/Personal-React-Portfolio',
       briefing: content('portfolio.alertBreif'),
+      live: null
     },
     {
       id:5,
-      image: LP2,
+      image: CONNECT4GAME,
       title: content('portfolio.items.4'),
-      github: null,
+      github: 'https://github.com/jprioses/connect-four-game',
       briefing: content('portfolio.alertBreif'),
+      live: 'https://jprioses-connect-four.netlify.app/'
     },
     {
       id:6,
@@ -53,6 +58,7 @@ const Portfolio = forwardRef(({content}, ref) => {
       title: content('portfolio.items.5'),
       github: 'https://topografiaaplicada.netlify.app/',
       briefing: content('portfolio.alertBreif'),
+      live: 'https://topografiaaplicada.netlify.app/'
     }
     
   ]
@@ -68,7 +74,7 @@ const Portfolio = forwardRef(({content}, ref) => {
         <h2>{content('portfolio.title')}</h2>
 
         <div className="container portfolio__container">
-          {data.map(({id, image, title, github,briefing}) => {
+          {data.map(({id, image, title, github,briefing, live}) => {
             return (
               <article className="portfolio__item" key={id}>
                 <div className="portfolio__item-image">
@@ -77,7 +83,7 @@ const Portfolio = forwardRef(({content}, ref) => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={(github) ? github : '#0'} onClick={() => {if(!github) alert(content('portfolio.alertGitHub'))}} target={(github) ? '_blank' : ''} rel="noreferrer" className='btn-sec'>{content('buttons.project')}</a>
-                  <a href='#0' onClick={() => alert(briefing)} className='btn-sec btn-primary'>{content('buttons.briefing')}</a>
+                  <a href={(live) ? live : '#0'} onClick={() => {if(!live) alert(briefing)}} target={(live) ? '_blank' : ''} rel="noreferrer" className='btn-sec btn-primary'>{content('buttons.briefing')}</a>
                 </div>
               </article>
             )
