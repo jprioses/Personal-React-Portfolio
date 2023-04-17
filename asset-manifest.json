@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Personal-React-Portfolio/static/css/main.c4b0718f.css",
-    "main.js": "/Personal-React-Portfolio/static/js/main.43d8e340.js",
+    "main.js": "/Personal-React-Portfolio/static/js/main.658f129b.js",
     "static/media/do.svg": "/Personal-React-Portfolio/static/media/do.3ecb625b75ec64be4376.svg",
     "static/media/rs.svg": "/Personal-React-Portfolio/static/media/rs.9f00a7d8eafa6f593713.svg",
     "static/media/bo.svg": "/Personal-React-Portfolio/static/media/bo.88ba0b0a7e48ec71eca8.svg",
-    "static/media/CV_SPA_Juan_Pablo_Rios.pdf": "/Personal-React-Portfolio/static/media/CV_SPA_Juan_Pablo_Rios.8162bc5fd1b173ff505c.pdf",
-    "static/media/CV_ENG_Juan_Pablo_Rios.pdf": "/Personal-React-Portfolio/static/media/CV_ENG_Juan_Pablo_Rios.87c956965514da75148e.pdf",
+    "static/media/CV_SPA_Juan_Pablo_Rios.pdf": "/Personal-React-Portfolio/static/media/CV_SPA_Juan_Pablo_Rios.461d245609c8a18ab8f3.pdf",
+    "static/media/CV_ENG_Juan_Pablo_Rios.pdf": "/Personal-React-Portfolio/static/media/CV_ENG_Juan_Pablo_Rios.b94b09b2f7803e8516d5.pdf",
     "static/media/mx.svg": "/Personal-React-Portfolio/static/media/mx.a17b7ad9eaa85411a1e1.svg",
     "static/media/ea.svg": "/Personal-React-Portfolio/static/media/ea.f1e55aacdee7ad81f5da.svg",
     "static/media/es.svg": "/Personal-React-Portfolio/static/media/es.36cdd00d34fa3ab9d98a.svg",
@@ -280,10 +280,10 @@
     "static/media/de.svg": "/Personal-React-Portfolio/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/Personal-React-Portfolio/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "main.c4b0718f.css.map": "/Personal-React-Portfolio/static/css/main.c4b0718f.css.map",
-    "main.43d8e340.js.map": "/Personal-React-Portfolio/static/js/main.43d8e340.js.map"
+    "main.658f129b.js.map": "/Personal-React-Portfolio/static/js/main.658f129b.js.map"
   },
   "entrypoints": [
     "static/css/main.c4b0718f.css",
-    "static/js/main.43d8e340.js"
+    "static/js/main.658f129b.js"
   ]
 }
